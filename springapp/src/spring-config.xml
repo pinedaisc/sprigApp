@@ -10,7 +10,7 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
 		<property name="url" value="jdbc:mysql://localhost:3306/springdb"></property>
-<!-- 		cambiar el nombre de la base y el usuario y password -->
+<!-- 		cambiar el nombre de la base y el usuario y password  -->
 		<property name="username" value="admin"></property>
 		<property name="password" value="admin"></property>
 	</bean>
