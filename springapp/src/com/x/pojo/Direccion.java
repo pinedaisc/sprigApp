@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class Direccion {
 	private String calle;
 	private String cp;
+	private String cambio1;
 	public Direccion() {
 		// TODO Auto-generated constructor stub
 	}
